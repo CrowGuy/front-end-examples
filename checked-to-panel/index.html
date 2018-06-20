@@ -1,0 +1,64 @@
+<!-- index.html for example -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body class="text-center">
+  <div class="container">
+    <div class="row p-3 justify-content-md-center">
+      <div class="col-10">
+        <h1>Add checked item to panel</h1>
+        <hr />
+        <div class="row">
+          <div class="col-4">
+            <h3>item1</h3>
+            <div class="row">
+              <div class="col">
+                <input type="checkbox" id="Aitem1" name="A" value="item1" onclick="itemClick('Aitem1');">A
+                <input type="checkbox" id="Bitem1" name="B" value="item1" onclick="itemClick('Bitem1');">B
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <h3>item2</h3>
+            <div class="row">
+              <div class="col">
+                <input type="checkbox" id="Aitem2" name="A" value="item2" onclick="itemClick('Aitem2');">A
+                <input type="checkbox" id="Bitem2" name="B" value="item2" onclick="itemClick('Bitem2');">B
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <h3>item3</h3>
+            <div class="row">
+              <div class="col">
+                <input type="checkbox" id="Aitem3" name="A" value="item3" onclick="itemClick('Aitem3');">A
+                <input type="checkbox" id="Bitem3" name="B" value="item3" onclick="itemClick('Bitem3');">B
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- div panel -->
+        <hr />
+        <div class="row pt-3">
+          <div class="col-6">
+            <h3>A class</h3>
+            <div id="panelA"></div>
+          </div>
+          <div class="col-6">
+            <h3>B class</h3>
+            <div id="panelB"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- script -->
+  <script src="checked-to-panel.js"></script>
+</body>
+</html>
