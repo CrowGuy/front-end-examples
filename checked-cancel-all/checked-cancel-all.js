@@ -10,6 +10,6 @@
 function checkAll(checkBoxName) {
   let checkboxes = document.getElementsByName(checkBoxName);
   for (let i=0; i < checkboxes.length; i++) {
-	checkboxes[i].checked = !checkboxes[i].checked;
+    checkboxes[i].checked = !checkboxes[i].checked;
   }
 }
